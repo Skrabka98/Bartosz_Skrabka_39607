@@ -58,7 +58,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(140, 290);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(7);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(228, 35);
             this.textBox1.TabIndex = 1;
@@ -88,15 +88,15 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(140, 376);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(7);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(228, 35);
             this.textBox2.TabIndex = 4;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1423, 765);
-            this.button1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.button1.Location = new System.Drawing.Point(622, 475);
+            this.button1.Margin = new System.Windows.Forms.Padding(7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(175, 51);
             this.button1.TabIndex = 5;
@@ -107,7 +107,7 @@
             // wynik
             // 
             this.wynik.AutoSize = true;
-            this.wynik.Location = new System.Drawing.Point(1423, 326);
+            this.wynik.Location = new System.Drawing.Point(879, 83);
             this.wynik.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.wynik.Name = "wynik";
             this.wynik.Size = new System.Drawing.Size(0, 29);
@@ -133,6 +133,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Mężczyzna";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -165,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1867, 1004);
+            this.ClientSize = new System.Drawing.Size(1233, 640);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.radioButton2);
@@ -179,7 +180,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "Form1";
             this.Text = "BMR";
             this.ResumeLayout(false);
