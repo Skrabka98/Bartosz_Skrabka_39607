@@ -20,8 +20,9 @@ namespace WindowsFormsApp3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=komis;";
-            string query = "SELECT * FROM samochody";
+            
+            string connectionString = "datasource=hosting2043243.online.pro;port=3306;username=00344320_wypozyczalnia;password=ramziuch12;database=00344320_wypozyczalnia";
+            string query = "SELECT * FROM auta";
 
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);

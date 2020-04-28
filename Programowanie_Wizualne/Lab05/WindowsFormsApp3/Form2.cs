@@ -17,7 +17,7 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
-        MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=komis");
+        MySqlConnection connection = new MySqlConnection("datasource=hosting2043243.online.pro;port=3306;username=00344320_wypozyczalnia;password=ramziuch12;database=00344320_wypozyczalnia");
 
         private void button1_Click(object sender, EventArgs e)
         {
