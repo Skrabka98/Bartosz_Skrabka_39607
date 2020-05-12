@@ -147,16 +147,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12511915}
-  m_LocalRotation: {x: -0, y: -0, z: -0.07761934, w: 0.99698305}
+  m_LocalRotation: {x: -0, y: -0, z: 0.71123207, w: 0.7029573}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.099964, y: 1.56848, z: 1}
+  m_LocalScale: {x: 1.340911, y: 1.56848, z: 1}
   m_Children: []
   m_Father: {fileID: 1502865825}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.903001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.670006}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 20}
+  m_AnchoredPosition: {x: -325, y: -9}
   m_SizeDelta: {x: 1136, y: 187.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &12511917
@@ -172,14 +172,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 76862cf02da93744dad0401d62adee44, type: 3}
-  m_Color: {r: 0, g: 0.013520718, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.0812664, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 77e8b04210e83cf4cb8c0a48cce6171d, type: 3}
+    m_Font: {fileID: 12800000, guid: 777b5bddfaf682d4f81f8a3f6aa5942f, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bartosz Skrabka
+  m_Text: Dawid Rudnik
 --- !u!222 &12511918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -387,16 +387,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338573692}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2751, y: 1.9001, z: 1}
+  m_LocalRotation: {x: -0.059532024, y: 0.06022294, z: -0.7086201, w: 0.70049036}
+  m_LocalPosition: {x: 0, y: 0, z: -21}
+  m_LocalScale: {x: 1.1369585, y: 1.9001, z: 1}
   m_Children: []
   m_Father: {fileID: 1502865825}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.112, y: 9.715, z: -90.65201}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318, y: -159}
+  m_AnchoredPosition: {x: 417, y: -141}
   m_SizeDelta: {x: 1226.9985, y: 135.30649}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1338573694
@@ -412,14 +412,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 77e8b04210e83cf4cb8c0a48cce6171d, type: 3}
-  m_Color: {r: 0.6897645, g: 0.6745098, b: 0.85882354, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 393c06db1dc8ab347afb113cf4c95655, type: 3}
+    m_Font: {fileID: 12800000, guid: 777b5bddfaf682d4f81f8a3f6aa5942f, type: 3}
     m_FontSize: 35
     m_FontStyle: 1
     m_BestFit: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nr. 39607
+  m_Text: Nr. 39605
 --- !u!222 &1338573695
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -467,14 +467,14 @@ RectTransform:
   m_GameObject: {fileID: 1345155053}
   m_LocalRotation: {x: -0, y: -0, z: -0.011092977, w: 0.99993855}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4969586, y: 1.1027983, z: 1}
+  m_LocalScale: {x: 0.6929571, y: 1.9608858, z: 1}
   m_Children: []
   m_Father: {fileID: 1502865825}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.271}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13, y: -184}
+  m_AnchoredPosition: {x: 12, y: -184}
   m_SizeDelta: {x: 1136, y: 426.45056}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1345155056
@@ -490,16 +490,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 76862cf02da93744dad0401d62adee44, type: 3}
-  m_Color: {r: 0.035733357, g: 0.5382865, b: 0.6886792, a: 1}
+  m_Color: {r: 0.035294127, g: 0.13490523, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 393c06db1dc8ab347afb113cf4c95655, type: 3}
+    m_Font: {fileID: 12800000, guid: 777b5bddfaf682d4f81f8a3f6aa5942f, type: 3}
     m_FontSize: 60
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
@@ -649,7 +649,7 @@ RectTransform:
   m_GameObject: {fileID: 1657719171}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2751, y: 1.9001, z: 1}
+  m_LocalScale: {x: 4.4933224, y: 3.8714535, z: 1}
   m_Children: []
   m_Father: {fileID: 1502865825}
   m_RootOrder: 1
@@ -672,14 +672,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 77e8b04210e83cf4cb8c0a48cce6171d, type: 3}
-  m_Color: {r: 0.6897645, g: 0.6745098, b: 0.85882354, a: 1}
+  m_Color: {r: 0.9716981, g: 0.27476624, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 393c06db1dc8ab347afb113cf4c95655, type: 3}
+    m_Font: {fileID: 12800000, guid: 777b5bddfaf682d4f81f8a3f6aa5942f, type: 3}
     m_FontSize: 35
     m_FontStyle: 1
     m_BestFit: 0

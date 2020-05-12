@@ -6,16 +6,14 @@ public class test : MonoBehaviour
 {
     public int x = 5;
     
-    // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < x; i++)
+        for (int i = 1; i <= x; i++)
         {
-            print("Bartosz");
+            print("Dawid");
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
