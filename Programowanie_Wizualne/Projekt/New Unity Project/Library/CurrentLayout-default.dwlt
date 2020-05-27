@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 14
+  controlID: 112
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 15
+  controlID: 113
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 16
+  controlID: 114
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 964
     height: 556
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -365,35 +365,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Skrypty
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Skrypty
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\ppo\39607\Bartosz_Skrabka_39607\Programowanie_Wizualne\Projekt\New
     Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 5e3a0000
-    m_LastClickedID: 14942
-    m_ExpandedIDs: 000000005e3a0000603a0000623a0000643a0000663a0000683a00006a3a00006c3a00006e3a0000c43a0000483b000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 284a0000
+    m_LastClickedID: 18984
+    m_ExpandedIDs: 000000000a3b00000c3b00000e3b0000103b0000123b0000143b0000163b0000183b00001a3b00001c3b00001e3b0000203b0000284a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15316
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -407,7 +407,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e3a0000603a0000623a0000643a0000663a0000683a00006a3a00006c3a00006e3a0000
+    m_ExpandedIDs: 000000000a3b00000c3b00000e3b0000103b0000123b0000143b0000163b0000183b00001a3b00001c3b00001e3b0000203b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000098640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -532,21 +532,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 16bdfeff44effeff8438ffffc8f3ffffcef3ffff70fbffff1836000076490000e2490000f24d00008a5900001a610000
+      m_ExpandedIDs: 70fbffff3c360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: FPSController
+        m_OriginalName: FPSController
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -65978
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -592,9 +592,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1223.3691, y: -17123.963, z: -4550.272}
+    m_Target: {x: 210.78282, y: 25.062422, z: 461.32028}
     speed: 2
-    m_Value: {x: 1223.3691, y: -17123.963, z: -4550.272}
+    m_Value: {x: 210.78282, y: 25.062422, z: 461.32028}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -640,20 +640,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.025635349, y: -0.79761034, z: 0.60195434, w: -0.034019534}
+    m_Target: {x: 0.13742155, y: 0.5473368, z: -0.095408514, w: 0.8204601}
     speed: 2
-    m_Value: {x: -0.025630917, y: -0.7974725, z: 0.60185033, w: -0.034013655}
+    m_Value: {x: 0.13765761, y: 0.54467696, z: -0.09496165, w: 0.82180274}
   m_Size:
-    m_Target: 10975.366
+    m_Target: 3.8445523
     speed: 2
-    m_Value: 10975.366
+    m_Value: 3.8445523
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.1
-    m_SpeedNormalized: 0.5274874
+    m_Speed: 1.6
+    m_SpeedNormalized: 0.8200002
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
