@@ -1,0 +1,11 @@
+﻿#!/bin/bash
+
+
+
+mkdi student  #tworzy katalog student
+cd student    #przechodzi do utworzonego katalogu
+
+pwd >> pierwszy      #zapisuje bierzacy katalog /home/student/bin/student
+whoami >> drugi      #zapisuje uzytkownika w katalogu
+ls -l ../ >> trzeci   #zapisuje do pliku listę plików z utworzonego katalogu
+finger >> czwarty     #zapisuje liste użytkowników w utworzonym katalogu

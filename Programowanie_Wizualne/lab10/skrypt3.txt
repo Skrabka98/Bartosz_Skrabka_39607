@@ -1,0 +1,8 @@
+﻿#!/bin/bash
+
+ 
+
+./skrypt2 #uruchamia skrypt2
+
+echo "Witam! Dziś jest `date` a ja nazywam sie `cat student/drugi` pracuje w katalogu `cat student/pierwszy` moi koledzy to "
+cat student/czwarty   #wyświetla datę i nazwę użytkownika skryptu drugiego

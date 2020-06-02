@@ -1,0 +1,4 @@
+﻿#!/bin/bash
+
+
+cp $S1* $S2  # po podaniu zawartości plik zostanie skopiowany z lokalizacji p1 do p2
