@@ -1,4 +1,0 @@
-﻿#!/bin/bash
-
-
-echo "Witaj `whoami` w dniu `date`" #wyświetla przywitanie z nazwą użytkownika i aktualną datą
